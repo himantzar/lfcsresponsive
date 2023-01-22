@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.881d95b2.css",
+    "main.js": "/static/js/main.34181682.js",
+    "static/media/2-01.jpg": "/static/media/2-01.9f2991a8af058cdaa230.jpg",
+    "static/media/LFCSBanner-02.png": "/static/media/LFCSBanner-02.7f6e8fcf8e42d78373d9.png",
+    "static/media/1-13.png": "/static/media/1-13.e8d86f7927f5a0b91805.png",
+    "static/media/1-15.png": "/static/media/1-15.44ab97da41d4ca0ca946.png",
+    "static/media/1-04.png": "/static/media/1-04.6ee41872ed7e061dc567.png",
+    "static/media/Layer2-02.png": "/static/media/Layer2-02.b42fa20b32e2e816dce6.png",
+    "static/media/1-16.jpg": "/static/media/1-16.5541bd8f04cc241e8272.jpg",
+    "static/media/1-18.jpg": "/static/media/1-18.a2d97618e8e034075694.jpg",
+    "static/media/1-17.jpg": "/static/media/1-17.aa379bcf89b322bc04d2.jpg",
+    "static/media/1-19.jpg": "/static/media/1-19.28e7597eabffe3ec8e30.jpg",
+    "static/media/1-21.jpg": "/static/media/1-21.b3771f80123d0cb99857.jpg",
+    "static/media/1-20.jpg": "/static/media/1-20.60bfae8874aa42f58b66.jpg",
+    "static/media/1-03.png": "/static/media/1-03.9d30cbf00c43407bf9ad.png",
+    "static/media/Logo_Universal.png": "/static/media/Logo_Universal.61f914efc32a88ac6538.png",
+    "static/media/Icons-06.png": "/static/media/Icons-06.4ca2111f3ecc0f396f54.png",
+    "static/media/Icons-10.png": "/static/media/Icons-10.4d067dfc67e6d8ef0363.png",
+    "static/media/Icons-12.png": "/static/media/Icons-12.6a83dc3411b028ef141f.png",
+    "static/media/Icons-08.png": "/static/media/Icons-08.663fd838ff3ec5135b33.png",
+    "static/media/Icons-07.png": "/static/media/Icons-07.dd6d3dbfaa3bd9111456.png",
+    "index.html": "/index.html",
+    "main.881d95b2.css.map": "/static/css/main.881d95b2.css.map",
+    "main.34181682.js.map": "/static/js/main.34181682.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.881d95b2.css",
+    "static/js/main.34181682.js"
+  ]
+}
