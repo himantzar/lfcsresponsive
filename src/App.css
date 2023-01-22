@@ -1,38 +1,1166 @@
-.App {
-  text-align: center;
-}
+  .App {
+    text-align: center;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  /* Navbar  */
+  .navbar-customS {
+    background-color: #3D3994;
+  }
+  .navbar-customS .navbar-brand,
+  .navbar-customS .navbar-text {
+      color: #FFF;
+  }
+
+  .nav-itemSMain
+  {
+  height: 25px;
+  padding: 3px 3px 3px 3px;
+  }
+
+  .nav-itemSC
+  {
+    margin-left: 940px;
+    margin-right: -200px;
+    margin-top: -5px;
+  } 
+
+  .nav-itemSC h6
+  {
+      margin-top: -24px;
+      margin-left: 28px;
+      color: #FFF;
+      font-weight: 600;
+      margin-right: 10px;
+  }
+
+  .CallIconsNav
+  {
+    color: rgb(255, 255, 255);
+    width: 27px;
+    margin-top: -3px;
+    margin-left: -2px;
+    margin-right: -130px;
+  }
+
+
+  .nav-itemSM
+  {
+    margin-left: 200px;
+    margin-right: -510px;
+    margin-top: -15px;
+
+  }
+  .nav-itemSM h6
+  {
+    margin-top: -24px;
+    margin-left: 26px;
+    color: #FFF;
+    font-weight: 600;
+  }
+
+  .MailIconsNav
+  {
+    color: rgb(255, 255, 255);
+    width: 27px;
+    margin-top: -5px;
+    margin-left: -9px;
+    margin-right: -130px;
+  }
+
+
+  .nav-itemSi
+  {
+    margin-left: 420px;
+    margin-top: -20px;
+  }
+
+
+
+  .socialmediaIconsNav1
+  {
+    color: rgb(255, 255, 255);
+    width: 21px;
+    margin-top: 14px;
+    margin-left: 88px;
+    margin-right: -130px;
+  }
+
+  .socialmediaIconsNav2
+  {
+      color: #3D3994;
+      width: 22px;
+      margin-Top: 14px;
+      margin-Left: 129px;
+      margin-right: -157px;
+  }
+
+  .socialmediaIconsNav3
+  {   
+    color: #3D3994;
+    width: 21px;
+    margin-Top: 14px;
+    margin-right: -99px;
+    margin-Left: 159px;
+  }
+
+
+
+  .navbar-customB {
+    background-color: #f5f5f5;
+  }
+  .navbar-customB .navbar-brand,
+  .navbar-customB .navbar-text {
+      color: #3D3994;
+  }
+
+  .navbar-customB img {
+    width: 120px;
+    height: 120px;
+    margin-top: -50px;
+  }
+
+  .Brandimg {
+    width:80px;
+    Height:80px;
+    margin-left: 5px;
+    margin-top: 50px;
+  }
+
+  .navbar-customBt
+  {
+    width: 360px;
+    height: 100px;
+
+  }
+
+  .navbar-customBt > .title {
+    font-size: 45px;
+    font-weight: 900;
+    width: 100px;
+    color: #3D3994;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    padding-bottom: -50px;
+    margin-left: -1px;
+    margin-top: -57px;
+    text-align: center;
+  }
+
+  .navbar-customBt > .subtitle {
+    color: #3D3994;
+    text-transform: capitalize;
+    font-family: "Poppins";
+    padding-top: 150px;
+    margin-top: -148px;
+    margin-left: -99px;
+  }
+
+  .BtnCont
+  {
+    width: 420px;
+    height: 50px;
+    margin-left: 101px;
+    margin-top: -43px;
+    margin-bottom: -49px;
+
+  }
+  /* .btnAd
+  {
+
+      width: 99px;
+      height: 30px;
+      padding: 5px 10px 10px 10px;
+      margin-left: 643px;
+      margin-top: -51px;
+      margin-bottom: 70px;
+      background-color: #981B1E;
+      color: #FFF;
+      border-radius: 40px;
+      font-weight: 500;
+  } */
+
+  .btnCt {
+    width: 99px;
+    height: 30px;
+    padding: 5px 10px 10px 10px;
+    margin-left: 643px;
+    margin-top: -51px;
+    margin-bottom: 70px;
+    background-color: #981B1E;
+    color: #FFF;
+    border-radius: 40px;
+    font-weight: 500;
+  }
+
+
+
+
+
+  .navbar-customN {
+    background-color: #3D3994;
+  }
+  .navbar-customN .navbar-brand,
+  .navbar-customN .navbar-text {
+      color: #FFF;
+  }
+
+
+  .containerM
+  {
+    width: 1360px;
+    height:400px;
+    
+  }
+
+  .Logos2
+  {
+    display: flex;
+    margin-top: -150px;
+  }
+
+  .text-centerM
+  {
+    font-weight: 900 ;
+    color: #3D3994;
+    margin-bottom: 60px;
+    margin-left:620px ;
+  }
+
+
+  .container .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+  }
+  .container .slider .logos {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0;
+  }
+  .container .slider .logos .fab {
+    width: calc(100% / 5);
+    animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  }
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+  }
+    to {
+      transform: translate3d(-100%, 0, 0);
+  }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+  }
+    100% {
+      opacity: 1;
+  }
+  }
+  .Media
+  {
+  width: 1390px;
+  height: 200px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  margin-top:-50px;
+  padding-left: -20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .MediaImg
+  {
+  width:200px;
+  height:200px;
+  margin-left: 20px;
   }
-}
+
+  .BoxContainerT
+  {
+    width: 1390px;
+    height: 80px;
+    margin-left:  180px;
+    padding-left: 100px;
+    padding-top: 80px;
+    display: flex;
+
+  }
+
+  .BoxContainerT > .row 
+  {
+    height: 50px;
+
+  }
+
+  .BoximgContainerT
+  {
+    width: 1390px;
+    height: 600px;
+    margin-left:-40px;
+    padding-left: 100px;
+    padding-top: 126px;
+    display: flex;
+
+  }
+
+  .BoxT
+  {
+    Width:250px;
+    height:300px;
+    background-color: #3D3994;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+  .BoxT img
+  {
+    Width:200px;
+    height:200px;
+    background-color: #3D3994;
+    margin-left: 15px;
+    margin-top: -250px;
+    border-radius:60%;
+  }
+
+  .BoxTs
+  {
+    Width:250px;
+    height:300px;
+    background-color: #3D3994;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+
+  .BoxTs img
+  {
+    Width:200px;
+    height:200px;
+    background-color: #3D3994;
+    margin-left: 15px;
+    margin-top: -180px;
+    border-radius:60%;
+  }
+
+
+
+  .BoxT p
+  {
+    width:240px;
+    color: #f5f5f5;
+    line-height: 20px;
+    margin-top:20px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-bottom: 20px;
+    font-size: 12px ;
+  }
+
+  .Circle
+  {
+    width: 220px;
+    height:220px;
+    margin-top:-100px ;
+    border-radius: 50%;
+    margin-left:5px;
+    margin-right:5px;
+    background-color: #3D3994;
+  }
+
+  .headingT
+  {
+    font-size: 2.8rem;
+    font-weight:800;
+    color: #3D3994;
+    padding-left:150px;
+
+    text-transform:capitalize;
+    margin-left:150px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "Poppins";
+  }
+
+
+  .containerAccr{
+    width:1390px;
+    height:1200px;
+  }
+
+  .img-blockAccr {
+    width: 1390px;
+    height: 380px;
+    margin-left: -39px;
+    background: rgba(62, 63, 147, 0.3);
+    z-index: 9999;
+  }
+
+
+  .colimg1 
+  {
+      width:auto;
+      height:320px ;
+      display:block ;
+      padding-left:90px; 
+      padding-top: 80px;
+    }
+  .colimg2 
+  {
+      width:auto;
+      height:325px ;
+      display:block ;
+      padding-left:-60px; 
+      padding-top: 80px;
+
+    }
+  .colimg3
+  {
+      width:auto;
+      height:325px ;
+      display:block ;
+      padding-left: 80px; 
+      padding-top:90px;
+    }
+
+
+
+
+
+  /* BranchesCards */
+  .BoxContainerBr
+  {
+    width: 1390px;
+    height: 500px;
+    margin-left: -80px;
+    padding-left: 20px;
+    padding-top: 50px;
+    display: flex;
+
+  }
+
+  .BoxBr
+  {
+    Width:200px;
+    height:300px;
+    background-color: #f5f5f5;
+    margin-left: 10px;
+    margin-top: 100px;
+  }
+
+
+  .headingBr 
+  {
+  font-size: 2.8rem;
+  font-weight:800;
+  color: #3D3994;
+  text-transform:capitalize;
+  margin-left: 80px;
+  text-align: center;
+  font-family: "Poppins";
+  margin-left:-100px;
+  margin-top:-20px;
+  padding-top: 50px;
+  margin-bottom:-120px;
+  }
+
+
+  .BoxBr img
+  {
+    width:200px;
+    height:200px;
+    margin-left:-12px;
+  }
+
+  .BoxBr h1
+  {
+    width:200px;
+    height:95px;
+    margin-left:-8px;
+    margin-top:1px;
+    font-size:22px;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+  }
+
+  .CarouselContainer
+  {
+    width:1390px;
+    height: 729px;
+    margin-bottom: -357px;
+  }
+
+
+
+  .CarouselBox 
+  {
+    width: 1390px;
+    height: 550px;
+    background-color: #3D3994;
+  }
+
+  .CarouselImages
+  {
+    width:1390px;
+    height: 450px;
+  } 
+
+
+  .bg-CustNav
+  {
+    background-color:#3E3F93;
+    justify-content:space-around ;
+    padding: 0px 100px 0px 0px;
+  }
+
+  .CarouselBoxForm
+  {
+    width: 1390px;
+    height:100px
+  }
+
+
+
+  .CarouselBoxForm >.col-md-12
+  {
+    width: 1960;
+    height: 80px;
+    margin-top:20px;
+    display: flex;
+    border: 2px Solid #981B1E;
+  }
+
+  .Carouseltitle
+  {
+    width: 300px;
+    color: #f5f5f5;
+    font-size: 30px;
+    margin-top: -7px;
+    padding-top: 30px;
+    margin-left: 70px;
+    font-family: "Poppins";
+  }
+
+  .col-autoT
+  {
+    margin-top:25px;
+    padding-top: 5px;
+  }
+
+  .col-auto
+  {
+    margin-top:-70px;
+    padding-top: 10px;
+    margin-left: 520px;
+    margin-right: -300px;
+  }
+
+  .inputCallA
+  {
+    width:300px;  
+    height: 40px;
+    background-color: #f5f5f5;
+    color: #981B1E;
+    font-weight: 700;
+    border-radius: 40px;
+    margin-top: 10px;
+  }
+
+  .btnCallA
+  {
+    width:180px;  
+    background-color: #f5f5f5;
+    color: #981B1E;
+    font-weight: 700;
+    border-radius: 40px;
+    margin-top: 10px;
+
+  }
+
+
+  .containerF
+  {
+    width:1390px;
+    height:800px
+  }
+
+
+  .headingF h1
+  {
+  font-size: 2.8rem;
+  font-weight:800;
+  color: #3D3994;
+  text-transform:capitalize;
+  margin-top: 50px;
+  margin-left:60px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Poppins";
+  }
+  .img-blocknc
+  {
+    width:1360px;
+    height:380px;
+    margin-left:-23px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 9999;
+
+  }
+
+
+  .IconDot
+  {
+      width: 80px;
+      height: 80px;
+      margin-top: 20px;
+      margin-left: 10px;
+  }
+
+  .iconTitle 
+  {
+    font-size: 1rem;
+    font-weight:700;
+    color: #282c34;
+    text-transform:capitalize;
+    margin-left: -70px;
+    text-align: center;
+    justify-self: center;
+    margin-top: 130px;
+    padding-left: -10px;
+    display: block;
+    font-family: "Poppins";
+    
+  }
+
+
+  .iconTitle1 
+  {
+    font-size: 1rem;
+    font-weight:700;
+    color: #282c34;
+    text-transform:capitalize;
+    margin-left: -90px;
+    text-align: center;
+    margin-top: 130px;
+    padding-left: -20px;
+    display: block;
+    font-family: "Poppins";
+    
+  }
+
+  .dot {
+    height:120px;
+    width: 120px;
+    background: rgba(62, 63, 147);
+    border-radius: 50%;
+    display: flex;
+    margin-top: 50px;
+  }
+
+
+  span
+  {
+    margin-left: 40px;
+
+
+  }
+
+  .heading h1
+  {
+  font-size: 2.8rem;
+  font-weight:800;
+  color: #3D3994;
+  text-transform:capitalize;
+  margin-top: 50px;
+  margin-left:60px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Poppins";
+  }
+
+
+
+  .containerMarq
+  {
+    width: 1390px;
+    height:50px;
+    margin-top: 180px;
+    margin-bottom: -45px;
+
+  }
+
+  .TextMarq
+  {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -180px;
+    color: #981B1E;
+  }
+
+  .col-md-12 > input
+  {
+    margin-left: 280px;
+    margin-top: -80px;
+    margin-right: -800px;
+    margin-bottom: -80px;
+  }
+
+  .form-textB
+  {
+    width: 300px;
+    height:50px;
+    margin-left:450px;
+    margin-top: -300px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    font-weight: 900;
+    border: 2px solid #FFF;
+    background-color: #F5F5F5;
+    border-radius: 35px;
+  }
+
+  .dropdown-toggle:before {
+    display: none;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+  }
+
+  .nav-item:hover .dropdown-menu {
+    display: block !important;
+    margin-left:50px;
+
+  }
+
+  #basic-nav-dropdown
+  {
+    color: #FFF;
+  }
+  #responsive-navbar-nav
+  {
+    color: #FFF;
+    
+  }
+  .nav-title
+  {
+    color:#FFF;
+    margin-left: 50px;
+  }
+
+
+
+  #basic-nav-dropdown:hover
+  {
+    border-bottom: 2px solid #FFF;
+  }
+
+
+  .dropdown-toggle:after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+  }
+
+
+  #basic-nav-dropdown .navbar-nav .show>.nav-link:after:hover {
+    background-color: #FFF;
+    display: none;
+  }
+
+
+  #basic-nav-dropdown .nav-item.show.dropdown:after:hover {
+    background-color: #F5F5F5;
+  }
+
+
+
+
+  .dropdown-toggle
+  {
+    color:#FFF;
+    margin-left: 50px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+  }
+
+  .nav-title
+  {
+    color:#FFF;
+    margin-left: 50px;
+
+  }
+
+  .btnAd
+  {
+    width: 120px;
+    padding-left: -80px;
+    margin-left:980px;
+    margin-top: -300px;
+    margin-bottom: 70px;
+    background-color: #981B1E;
+    border-radius: 40px;
+    font-weight: 500;
+
+  }
+
+  .btnCt
+  {
+    width: 120px;
+    padding-left: -80px;
+    margin-left:20px;
+    margin-top: -300px;
+    margin-bottom: 70px;
+    background-color: #981B1E;
+    border-radius: 40px;
+    font-weight: 500;
+
+  }
+
+  .btnCall
+  {
+    width: 200px;
+    height:50px;
+    border-radius: 40px;
+    margin-left: 750px;
+    margin-top: -180px;
+      background-color: #f6f6f6;
+
+  }
+
+  .btnNav 
+  {
+  background-color: #3D3994; 
+  color: #f5f5f5;
+  margin:10px 0;
+  /* padding: 20px 0; */
+  width: 100px;
+  height:40px;
+  text-align: center;
+  margin-left:500px ;
+  }
+  .btnNavC 
+  {
+  background-color: #3D3994; 
+  color: #f5f5f5;
+  margin:10px 0;
+  width: 100px;
+  height:40px;
+  margin-left:5px; 
+  
+  }
+
+
+
+  .containercust
+  {
+    Width:820px;
+    color: #FFF;
+    height:250px;
+    margin-left: 400px;
+    margin-top: -320px;
+  }
+  .colCut
+  {
+    width: 150px;
+    height:150px;
+    background-color: #61dafb;
+    margin:5px ;
+    padding: 10px;
+  }
+
+  .colCuts
+  {
+    width:300px;
+    height:300px;
+    background-color: #981B1E;
+
+  }
+
+  .containerIgF
+  {
+    width:1390px;
+    height:1200px;
+    margin-left: 10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+
+  }
+
+
+
+  .containerM
+  {
+    width: 1390px;
+    height:400px;
+    
+  }
+
+  .Logos2
+  {
+    display: flex;
+    margin-top: -150px;
+  }
+
+  .text-centerM
+  {
+    font-weight: 900 ;
+    color: #3D3994;
+    margin-bottom: 60px;
+    margin-left:620px ;
+  }
+
+
+  .Circle
+  {
+    width: 220px;
+    height:220px;
+    margin-top:-100px ;
+    border-radius: 50%;
+    margin-left:5px;
+    margin-right:5px;
+    background-color: #3D3994;
+  }
+
+
+  .circle
+  {
+    width: 8px;
+    height:8px;
+    margin-left:5px;
+    margin-right:5px;
+  }
+
+
+  .textContainer h1
+  {
+    float:left;
+    text-align:right;
+    margin-left:-20px;
+    width: 300px;
+    font-size: 30px;
+    font-weight:700
+  }
+
+  .textContainer h6
+  {
+    float:left;
+    text-align:right;
+    margin-left:-20px;
+    width: 300px;
+    font-weight:400;
+    font-size: 14px;
+  }
+
+
+  .bgImgFooter
+  {
+    width:1390px;
+    height: 85vh;
+    padding-top: 50px;   
+    background:rgba(62, 63, 147);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 80px;
+
+  }
+
+  .bgImgFooterColor
+  {
+    width:1390px;
+    height:60vh;
+    padding-top: 50px; 
+    background:rgba(62, 63, 147);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -5px;
+    z-index:9999;
+  }
+  .bgImgFooterLogo
+  {
+    width:1390px;
+    height: 20vh;
+    padding-top: 50px; 
+    background:rgba(62, 63, 147,0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: -50px; */
+  }
+
+  .bgImgFooterLogoB
+  {
+    width:1390px;
+    height: 20vh;
+    padding-top: 50px; 
+    background:rgba(62, 63, 147,0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+  }
+
+
+
+
+
+  .FooterBoxAli
+  {
+    margin-left:-40px;
+    margin-top: -10px;
+    padding: 5px 5px 5px 5px;
+  }
+
+
+
+  .text-centerIGF
+  {
+    font-weight: 900 ;
+    color: #3D3994;
+    margin-bottom: 60px;
+    margin-left:450px ;
+  }
+
+  .text-centerIGF h1
+  {
+    font-weight: 900 ;
+    color: #3D3994;
+    margin-bottom: 60px;
+    margin-left:-20px ;
+  }
+
+
+  .FooterBoxAli > .FooterHtitle
+  {
+    margin-left: 188px;
+    margin-top: -80px;
+    padding-left: 50px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-weight: 800;
+    
+  }
+
+  .iconigf
+  {
+    margin-left:110px
+  }
+
+  .FooterSubtitle
+  {
+    margin-left:-150px ;
+    margin-top: -10px;
+    font-family: "Poppins";
+  }
+
+
+  .vl {
+    border-left: 3px solid #F5F5F5;
+    border-radius: 20px;
+    height: 100px;
+    margin-left: -150px;
+    margin-top: -10px;
+    margin-right: -150px;
+    padding-left: -150px;
+  } 
+
+  .socialmediaIcons
+  {
+    width: 601px;
+    margin-left: -141px;
+  }
+
+  .iconSM1
+  {
+    width:90px;
+    margin-Top:-10px; 
+    margin-left:-30px;  
+    margin-right:-80px;
+    margin-bottom:80px
+  }
+
+  .iconSM2
+  {
+    width:100px;
+    margin-Top:-10px; 
+    margin-left:80px;  
+    margin-bottom:80px
+  }
+
+
+  .iconSM3
+  {
+    width:80px;
+    margin-Top:-10px; 
+    margin-left:10px;  
+    margin-bottom:80px
+  }
+
+
+
+  .Footerlogo
+  {
+    width:90px;
+    height: 90px;
+    margin-left:-480px;
+    font-family: "Poppins";
+  }
+
+
+
+
+
+
+
+  /* echo "# LFCS" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/himantzar/LFCS.git
+  git push -u origin main */
